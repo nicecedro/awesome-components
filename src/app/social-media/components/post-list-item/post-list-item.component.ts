@@ -9,6 +9,7 @@ import { Post } from 'src/app/core/models/post.module';
 export class PostListItemComponent implements OnInit {
 
 
+  tempUser = { firstName: "Cédric", lastName: "Nizigiyimana" };
   @Input() post !: Post; // vérifier si on a reçu les données
   @Output() postCommented = new EventEmitter<{ comment: string, postId: number }>();
 
