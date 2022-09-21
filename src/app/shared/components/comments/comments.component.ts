@@ -47,7 +47,7 @@ import { slideAndFadeAnimation } from '../../animations/slide-and-fade.animation
 
         useAnimation(slideAndFadeAnimation, {
           params: {
-            time: 500,
+            time: 250,
             flashColor: 'orange'
           }
         }),
@@ -72,7 +72,6 @@ import { slideAndFadeAnimation } from '../../animations/slide-and-fade.animation
           ]),
         ])
       ]),
-
     ])
   ]
 })
